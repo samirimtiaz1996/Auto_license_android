@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "878502120517",
+    "firebase_url": "https://chatapplication-1cc53.firebaseio.com",
+    "project_id": "chatapplication-1cc53",
+    "storage_bucket": "chatapplication-1cc53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878502120517:android:5df3b23cbfa8f9dd",
+        "android_client_info": {
+          "package_name": "com.my.ChatApplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878502120517-vqdu57jmgf7hp23h5qupkhlf86q90ai3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm2VjZnfzpPijzvd8sPVobmY-Ln8LhYR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878502120517-vqdu57jmgf7hp23h5qupkhlf86q90ai3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "878502120517-0jru7gisrkqgnja67gv95flsaaeo7k0v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sam.Flash-Chat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878502120517:android:4d55cb94f171b12839272c",
+        "android_client_info": {
+          "package_name": "com.samirimtiaz.auto_license"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878502120517-vqdu57jmgf7hp23h5qupkhlf86q90ai3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm2VjZnfzpPijzvd8sPVobmY-Ln8LhYR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878502120517-vqdu57jmgf7hp23h5qupkhlf86q90ai3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "878502120517-0jru7gisrkqgnja67gv95flsaaeo7k0v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sam.Flash-Chat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878502120517:android:b95d938a99cad6ce39272c",
+        "android_client_info": {
+          "package_name": "com.samirimtiaz.gutu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878502120517-vqdu57jmgf7hp23h5qupkhlf86q90ai3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm2VjZnfzpPijzvd8sPVobmY-Ln8LhYR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878502120517-vqdu57jmgf7hp23h5qupkhlf86q90ai3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "878502120517-0jru7gisrkqgnja67gv95flsaaeo7k0v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sam.Flash-Chat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

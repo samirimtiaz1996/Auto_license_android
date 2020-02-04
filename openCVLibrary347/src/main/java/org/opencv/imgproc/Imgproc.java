@@ -7540,7 +7540,7 @@ public class Imgproc {
      * @param result Map of comparison results. It must be single-channel 32-bit floating-point. If image
      * is \(W \times H\) and templ is \(w \times h\) , then result is \((W-w+1) \times (H-h+1)\) .
      * @param method Parameter specifying the comparison method, see #TemplateMatchModes
-     * @param mask Mask of searched template. It must have the same datatype and size with templ. It is
+     * @param mask imask of searched template. It must have the same datatype and size with templ. It is
      * not set by default. Currently, only the #TM_SQDIFF and #TM_CCORR_NORMED methods are supported.
      */
     public static void matchTemplate(Mat image, Mat templ, Mat result, int method, Mat mask) {
