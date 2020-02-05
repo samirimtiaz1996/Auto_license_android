@@ -60,7 +60,7 @@ public class OTPActivity extends AppCompatActivity {
                 if (continueAndNextBtn.getText ().equals ("Submit") || checker.equals ("Code Sent")){
                     String verificationCode=codeText.getText ().toString ();
                     if (verificationCode.equals ("")){
-                        Toast.makeText (OTPActivity.this,"Please write verification code",Toast.LENGTH_LONG);
+                        Toast.makeText (OTPActivity.this,"Please write verification code",Toast.LENGTH_LONG).show ();
                     }
                     else {
                         progressDialog.setTitle ("Code Verification");
@@ -88,7 +88,7 @@ public class OTPActivity extends AppCompatActivity {
 
                     }
                     else{
-                        Toast.makeText (OTPActivity.this,"Please Give Us A Valid Phone Number",Toast.LENGTH_SHORT);
+                        Toast.makeText (OTPActivity.this,"Please Give Us A Phone Number",Toast.LENGTH_SHORT).show ();
                     }
                 }
             }
@@ -102,7 +102,7 @@ public class OTPActivity extends AppCompatActivity {
 
             @Override
             public void onVerificationFailed(@NonNull FirebaseException e) {
-                Toast.makeText (OTPActivity.this,"Invalid Phone Number . Error no :"+e.getMessage (),Toast.LENGTH_LONG);
+                Toast.makeText (OTPActivity.this,"Invalid Phone Number . Error no :"+e.getMessage (),Toast.LENGTH_LONG).show ();
                 relativeLayout.setVisibility (View.VISIBLE);
 
                 continueAndNextBtn.setText ("Continue");
@@ -120,7 +120,7 @@ public class OTPActivity extends AppCompatActivity {
                 continueAndNextBtn.setText ("Submit");
                 codeText.setVisibility (View.VISIBLE);
                 progressDialog.dismiss ();
-                Toast.makeText (OTPActivity.this,"Verification Code Has Been Sent",Toast.LENGTH_LONG);
+                Toast.makeText (OTPActivity.this,"Verification Code Has Been Sent",Toast.LENGTH_LONG).show ();
             }
         };
     }

@@ -3,7 +3,7 @@
     package="com.samirimtiaz.auto_license">
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
@@ -17,9 +17,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfileViewActivity"></activity>
+        <activity android:name=".ExamAndResult"></activity>
+        <activity android:name=".ProfileViewActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".OTPActivity">
+            <meta-data
+                android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+                android:value="ocr" />
+            <!-- To use multiple models: android:value="ocr,model2,model3" -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

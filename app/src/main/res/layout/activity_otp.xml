@@ -54,12 +54,12 @@
                     android:id="@+id/phoneText"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:hint="304123123123"
-                    android:textColor="@android:color/white"
-                    android:textColorHint="@android:color/darker_gray"
+                    android:backgroundTint="@android:color/white"
+                    android:hint="1552123123"
                     android:inputType="phone"
                     android:singleLine="true"
-                    android:backgroundTint="@android:color/white"/>
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/darker_gray" />
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
