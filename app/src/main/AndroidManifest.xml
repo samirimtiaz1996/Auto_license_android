@@ -17,10 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ExamAndResultActivity"></activity>
-        <activity android:name=".ProfileViewActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".OTPActivity">
+        <activity android:name=".CarMotionDetectionActivity">
             <meta-data
                 android:name="com.google.firebase.ml.vision.DEPENDENCIES"
                 android:value="ocr" />
@@ -31,6 +28,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CarDrivingTestActivity">
+
+        </activity>
+        <activity android:name=".ExamAndResultActivity"></activity>
+        <activity android:name=".ProfileViewActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".OTPActivity" />
     </application>
 
 </manifest>

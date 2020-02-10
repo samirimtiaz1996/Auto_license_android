@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarMotionDetectionActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="66dp"
+        android:text="On device Test Status: Running \n Speed: 0 kmh \n Offroad: True \n Car Detecting lines:True \n Car motion detection: Active \n Driver Face Detection: Continuous True \n Matched with NID: FALSE"
+        android:textColor="#000F01" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="199dp"
+        android:layout_height="280dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@drawable/face_sample"
+        tools:srcCompat="@drawable/face_sample" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="24dp"
+        android:text="Status:App Is Waiting For Real Driver and Car Movement"
+        android:textColor="#1F0706"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="44dp"
+        android:text="Let the real driver give test. Start driving car within 5 minutes."
+        android:textColor="#7A1A13"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="15dp"
+        android:text="Car Driving Test"
+        android:textColor="#180402"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RelativeLayout>

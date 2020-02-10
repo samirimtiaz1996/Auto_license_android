@@ -89,13 +89,13 @@
 
     <TextView
         android:id="@+id/testText"
-        android:layout_width="121dp"
-        android:layout_height="116dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/nidback"
         android:layout_marginStart="83dp"
         android:layout_marginTop="308dp"
         android:layout_toEndOf="@+id/birthdate"
-        android:text="TextView" />
+        android:text="AI has matched Nid number and selfy with NID data" />
 
 
 </RelativeLayout>
